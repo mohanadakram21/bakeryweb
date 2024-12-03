@@ -1,0 +1,210 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top-page{
+    min-height: 100vh;
+    overflow: auto;
+    background-image: url("./image/drew-coffman-1872.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.top-page .top-s{
+    text-align: center;
+    margin-top: 25%;
+    color: white;
+    font-size: xx-large;
+}
+.top-page .top-s h2{
+    margin-bottom: 50px;
+}
+
+.top-page .top-s .fbutton{
+
+    padding: 50px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 25px;
+}
+.top-page .top-s .btn1{
+    background-color: blanchedalmond;
+    color: black;
+    padding: 25px 25px;
+}
+.top-page .top-s .btn2{
+    border: 1px solid blanchedalmond;
+    color: white;
+    padding: 25px 25px;
+}
+.second-sec .img-sec{
+    width: 49%;
+    display: inline-block;
+
+}
+.second-sec .img-sec img{
+    width: 100%;
+}
+.second-sec .who{
+    color: rebeccapurple;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 70px;
+    padding-left: 50px ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* min-height: 100vh; */
+}
+.third-sec{
+    background-color: bisque;
+}
+.third-sec .dounts{
+    width: 50%;
+    float: right;
+    padding-left:  50px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.third-sec .dounts h2{
+    margin: 80px 0;
+}
+.third-sec .dounts p{
+    margin-bottom: 90px;
+    margin-right: 50px;
+    font-size: x-large;
+}
+.third-sec .img-third{
+    width: 50%;
+    float: right;
+    margin: 70px 0;
+}
+.third-sec .img-third img{
+width: 100%;
+}
+
+.four-sec{
+    text-align: center;
+    
+    
+}
+
+.four-sec h2{
+    padding: 30px;
+}
+
+
+ .four-sec .ffour-sec{
+    width: 33.3%;
+    float: left;
+border: 15px solid white ;
+text-align: center;
+padding-bottom: 20px;
+}
+.four-sec  p{
+    margin: 20px 0;
+}
+.four-sec .ffour-sec img{
+width: 100%;
+
+}
+.four-sec .ffour-sec button{
+    margin: 30px 0;
+}
+.four-sec .ffour-sec button:hover{
+    color: blueviolet;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    
+}
+ul li{
+    padding-bottom: 50px;
+}
+ul li img {
+    width: 40px;
+    vertical-align: middle;
+}
+.clear{
+    clear: both;
+}
+
+.five-sec{
+    background-color: white;
+    /* padding: 20px 0; */
+}
+.footer-item{
+    float: left;
+    width: 25%;
+    margin: 50px 0;
+}
+.footer-item h2{
+    margin: 50px 0;
+}
+button{
+    width: 80px;  
+    padding: 20px 20px;
+}
+.footer{
+    background-color: bisque;
+    
+    text-align: center;
+}
+.footer img{
+    margin: 20px 0;
+}
+.info-sec{
+    background-color: bisque;
+}
+.info-sec .informaion{
+    width: 50%;
+    float: left;
+    padding-left:  50px;
+    vertical-align: top;
+    margin-top: 90px;
+}
+.info-sec .informaion h2{
+    padding: 20px 0;
+}
+.info-sec .informaion p{
+    margin: 20px 0;
+}
+.info-sec .info-image img{
+    width: 100%;
+}
+.info-sec .info-image{
+    width: 50%;
+    float: left;
+    margin: 50px 0;
+}
+.nav{
+    background-color: burlywood;
+    height: 90px;
+}
+.nav img{
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+}
+.nav ul{
+float: right;
+list-style: none;
+}
+.nav ul li {
+    float: left;
+    margin: 0px 20px;
+    font-size: larger;
+    padding: 20px 0;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
